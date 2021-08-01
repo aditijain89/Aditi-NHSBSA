@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="103.249" tests="54" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="browser" value="Firefox"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\aditi.jain\aditi-practice\Test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\aditi.jain\aditi-practice\Test"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADITI~1.JAI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Dell\Dell Data Protection\Encryption\;C:\Program Files\Java\jdk1.8.0_231\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\aditi.jain\AppData\Local\Microsoft\WindowsApps;C:\Users\aditi.jain\AppData\Local\Programs\Git\cmd;C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;;."/>
+    <property name="maven.conf" value="C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\aditi.jain"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aditi.jain"/>
+    <property name="java.class.path" value="C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_231"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=Firefox"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_231\lib\resources.jar;C:\Program Files\Java\jre1.8.0_231\lib\rt.jar;C:\Program Files\Java\jre1.8.0_231\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_231\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_231\lib\jce.jar;C:\Program Files\Java\jre1.8.0_231\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_231\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_231\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\aditi.jain\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: User is resident of Northern Ireland" time="0.006"/>
+  <testcase name="When User enters the country as &quot;Northern Ireland&quot;" classname="Scenario: User is resident of Northern Ireland" time="0.001"/>
+  <testcase name="Then User cannot use NHS Cost Checker Tool" classname="Scenario: User is resident of Northern Ireland" time="0"/>
+  <testcase name="Scenario: User is resident of Northern Ireland" classname="Scenario: User is resident of Northern Ireland" time="1.475"/>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: User is under sixteen years of age" time="0"/>
+  <testcase name="When User enters the country as &quot;Wales&quot;" classname="Scenario: User is under sixteen years of age" time="0"/>
+  <testcase name="And User enters the age as under sixteen" classname="Scenario: User is under sixteen years of age" time="0"/>
+  <testcase name="Then User is eligible for Free NHS" classname="Scenario: User is under sixteen years of age" time="0"/>
+  <testcase name="Scenario: User is under sixteen years of age" classname="Scenario: User is under sixteen years of age" time="1.56"/>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="When User enters the country as &quot;Wales&quot;" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User is an adult" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User lives &quot;with&quot; a partner" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User &quot;claims&quot; any benefits or tax credits" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User gets &quot;Universal&quot; Credit" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User &quot;gets&quot; LCW As part of the joint Universal Credit" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="And User enters the combined take-home pay as Less Than &quot;935&quot;" classname="Scenario: Users combined take-home pay is less than 935" time="0.001"/>
+  <testcase name="Then User is eligible for Free NHS" classname="Scenario: Users combined take-home pay is less than 935" time="0"/>
+  <testcase name="Scenario: Users combined take-home pay is less than 935" classname="Scenario: Users combined take-home pay is less than 935" time="1.694"/>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="When User enters the country as &quot;England&quot;" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User GP Practice &quot;is not&quot; in England" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User is an adult" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User lives &quot;with&quot; a partner" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User &quot;claims&quot; any benefits or tax credits" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User gets &quot;Universal&quot; Credit" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User &quot;does not get&quot; LCW As part of the joint Universal Credit" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="And User enters the combined take-home pay as Less Than &quot;435&quot;" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="Then User is eligible for Free NHS" classname="Scenario: Users combined take-home pay is less than 435" time="0"/>
+  <testcase name="Scenario: Users combined take-home pay is less than 435" classname="Scenario: Users combined take-home pay is less than 435" time="1.976"/>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: User does not claim any tax benefits" time="0.001"/>
+  <testcase name="When User enters the country as &quot;Scotland&quot;" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;lives&quot; in the Highlands and Islands" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User is an adult" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User lives &quot;without&quot; a partner" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;does not claim&quot; any benefits or tax credits" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;is not&quot; pregnant or not given birth in the last year" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;does not have&quot; injury or illness caused by serving in the armed forces" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;does not live&quot; permanently in a care home" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="And User &quot;has&quot; savings of more than sixteen thousand pounds" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="Then User gets help with NHS costs" classname="Scenario: User does not claim any tax benefits" time="0"/>
+  <testcase name="Scenario: User does not claim any tax benefits" classname="Scenario: User does not claim any tax benefits" time="1.194"/>
+  <testcase name="Given NHS Cost Checker Tool is open" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="When User enters the country as &quot;England&quot;" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User GP Practice &quot;is not&quot; in England" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User is above sixty" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User lives &quot;without&quot; a partner" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User &quot;does not claim&quot; any benefits or tax credits" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User &quot;is not&quot; pregnant or not given birth in the last year" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User &quot;does not have&quot; injury or illness caused by serving in the armed forces" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User &quot;lives&quot; permanently in a care home" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="And User &quot;gets&quot; help from local council" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="Then User can apply for help with NHS costs" classname="Scenario: User is above sixty and lives in care home provided by local council" time="0"/>
+  <testcase name="Scenario: User is above sixty and lives in care home provided by local council" classname="Scenario: User is above sixty and lives in care home provided by local council" time="1.835"/>
+</testsuite>

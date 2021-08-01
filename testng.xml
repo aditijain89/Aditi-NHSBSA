@@ -1,0 +1,79 @@
+<suite name="Suites" parallel="classes" thread-count="1"
+	configfailurepolicy="continue">
+
+	<parameter name="browser" value="chrome" />
+
+	 <parameter name="Backend_Server" value="http://aditi-jain.int.dev.mykronos.com:8082"/> 
+		<parameter name="Tenant" value="hcm_max_pr2607_nonprd_01"/>  
+		
+	<parameter name="HYPERFIND_ID" value="1"></parameter>
+	<parameter name = "USER" value = "Cxsysadmin"></parameter> 
+	
+ 	<!-- <parameter name="Backend_Server"
+		value="keng03-dev01-ins01-wfm63-bck-625888488-1.int.dev.mykronos.com" />
+	<parameter name="Tenant" value="hcm_max_lb0717_nonprd_01" />
+	<parameter name="HYPERFIND_ID" value="20103,20104"></parameter> 
+	<parameter name = "USER" value = "3597270"></parameter> -->
+	
+	<parameter name="OpenAM_Server"
+		value="http://keng03-dev01-ath11-oam.int.dev.mykronos.com:80" />
+	
+	<parameter name="SYMBOLIC_PERIOD_ID" value="0"></parameter>
+	
+	<parameter name="Report_Loc" value="C:\\API-Reports\\" />
+	<parameter name="Log_Loc" value="C:\\API-Reports\\log" />
+	<parameter name="dateFormat" value="MM/dd/yyyy" />
+	<parameter name="deepReporting" value="true" />
+	<parameter name="timeout" value="120" />
+
+	<parameter name="APIGATEWAY_SERVER"
+		value="http://keng03-dev01-api-gtw86-app.int.dev.mykronos.com:80" />
+	<parameter name="APPKEY"
+		value="dYltqxPIbpJQGtqX5nsko9BLNrHedFzP" /> <!-- used in import manager -->
+	<!-- <parameter name="envType" value="ACD" /> -->
+	<parameter name="ENV_TYPE" value="KENG" />
+	<parameter name="checkEnv" value="false" />
+	<parameter name="RP_INT" value="true" />
+
+	<parameter name="WFTS_URL"
+		value="https://tap-tsg03.kronos.com" />
+	<parameter name="WFTS_Admin_Username" value="tsadm" />
+	<parameter name="WFTS_Password" value="1234" />
+	<parameter name="GatewayDefaultPort" value="80/api" />
+
+	<parameter name="WFTS_Product_Name" value="WFTS" />
+	<parameter name="Sched_Batch" value="false" />
+	<parameter name="WFTS_DB_Name" value="TeleStaff" />
+
+	<parameter name="WFTS_SFTP_UserName" value="Svcwfduser" />
+
+	<parameter name="WFTS_SFTP_Password" value="32E@ut0#mWfD!$" />
+
+
+
+	<test name="Tests">
+
+
+		<groups>
+
+			<run>
+
+				<include name="Regression" />
+				<exclude name="WIP" />
+
+			</run>
+
+		</groups>
+
+
+		<classes>
+<class name="com.kronos.platform.apitestcases.component.payrollextract.accrual.TestAccrualExport">
+</class>
+<!-- <class name="com.kronos.platform.apitestcases.component.payrollextract.datasetup.AccrualDataSetup">
+</class> -->
+</classes>
+
+	</test>
+
+
+</suite>
